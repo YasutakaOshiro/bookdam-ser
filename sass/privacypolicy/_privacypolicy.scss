@@ -1,0 +1,46 @@
+@charset "utf-8";
+@use "../all" as *;
+.privacypolicy{
+    &__main{
+        padding: calc(151/1400*100vw) 10vw calc(171/1400*100vw);
+        display: flex;
+        flex-direction: column;
+        gap: calc(64/1400*100vw);
+        @include bkp(sp) {
+            gap: 11vw;
+            padding: 15vw 5vw 20vw;
+        }
+        .main{
+            &__content{
+                display: flex;
+                flex-direction: column;
+                gap: calc(17/1400*100vw);
+                @include bkp(sp) {
+                    gap: 3vw;
+                }
+                &--ttl{
+                    color: $basecolor;
+                    letter-spacing: 0.01em;
+                    font-size: calc(32/1400*100vw);
+                    @include bkp(sp){
+                        font-size: calc(18/375*100vw);
+                    }
+                }
+                .lead{
+                    .link{
+                        color: $basecolor;
+                        text-decoration: underline;
+                        transition: opacity 0.3s;
+                        &:hover{
+                            @include bkp(pc) {
+                                opacity: 0.7;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+

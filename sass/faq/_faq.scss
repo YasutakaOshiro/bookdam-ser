@@ -1,0 +1,80 @@
+@charset "utf-8";
+@use "../all" as *;
+.faq{
+  &__category{
+    position: relative;
+    padding: calc(93/1400*100vw) 10vw calc(160/1400*100vw);
+    display: flex;
+    flex-direction: column;
+    gap: calc(29/1400*100vw);
+    @include bkp(sp) {
+      padding: 15vw 5vw 15vw;
+      gap: 8vw;
+    }
+    .category{
+      &__anchors{
+        display: flex;;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: calc(16/1400*100vw);
+        align-items: center;
+        @include bkp(sp) {
+          gap: 3vw;
+        }
+        li{
+          a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: calc(14/1400*100vw);
+            padding: calc(17/1400*100vw) calc(33/1400*100vw);
+            background: white;
+            border-radius: 5px 0 5px 0;
+            border: 1px solid $basecolor;
+            transition: all .3s ease;
+            @include bkp(sp) {
+              gap: 2vw;
+              padding: calc(10/375*100vw) calc(22/375*100vw);
+            }
+            .txt{
+              color: $basecolor;
+              transition: all .3s ease;
+            }
+            .icon{
+              width: calc(9/1400*100vw);
+              transition: all .3s ease;
+              @include bkp(sp) {
+                width: calc(8/375*100vw);
+              }
+            }
+            &:hover{
+              @include bkp(pc) {
+                background: $basecolor;
+                .txt{
+                  color: white;
+                }
+                .icon{
+                  filter: brightness(0) invert(1);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &__main{
+    display: flex;
+    flex-direction: column;
+    gap: calc(94/1400*100vw);
+    @include bkp(sp) {
+      gap: 20vw;
+    }
+  }
+  &__links{
+    padding-block: calc(119/1400*100vw) calc(153/1400*100vw);
+    @include bkp(sp) {
+      padding-block: 20vw;
+    }
+  }
+}
