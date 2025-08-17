@@ -429,7 +429,7 @@ Template Name: 私たちについて
                 </div>
             </div>
         </div>
-        <p class="guide">※この4名に加えて経理1名を含め、<br class="sp">スタッフ数は5名です（2025年6月現在）</p>
+        <p class="guide">この4名に加えて、<br class="sp">書店促進パートナー1名・経理1名を含め、<br class="sp">スタッフ数は6名です。（2025年8月現在）</p>
     </section>
     <div class="about-us__other">
         <ul class="other__list type_jcc">
