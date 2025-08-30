@@ -104,7 +104,7 @@
             <p class="guide">弊社では在宅ワーク推奨のため、<br class="pc">お電話が繋がりにくい場合がございます。</p>
             <p class="subtxt">ご用件のある方は<a href="<?php echo home_url('contact/'); ?>" class="txtlink">『ご相談・お問い合わせ』</a>から<br>ご連絡くださいますよう宜しくお願い致します。</p>
             <a href="https://bookdam.co.jp/" target="_blank" class="externallink"><span class="txt">ホームページはこちら</span><span class="icon"><img src="<?php echo home_url('asset/img/common/ico_external01.svg'); ?>" alt=""></span></a>
-            <a href="https://note.com/bookdam/m/m687868f3abdb" class="notelink" target="_blank"><img src="<?php echo home_url('asset/img/common/bnr_note01.webp'); ?>" alt="ブックダム公式note"></a>
+            <a href="https://note.com/bookdam/m/m4b839932ad24" class="notelink" target="_blank"><img src="<?php echo home_url('asset/img/common/bnr_note01.webp'); ?>" alt="ブックダム公式note"></a>
         </div>
       </div>
     </nav>
